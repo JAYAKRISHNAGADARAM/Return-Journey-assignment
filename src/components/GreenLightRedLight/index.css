@@ -1,0 +1,59 @@
+/* GreenLightRedLight.css */
+
+/* Style the game container */
+.GreenLightRedLight {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the game header */
+.GreenLightRedLight h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style the game box */
+.GreenLightRedLight .box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ff0000; /* Red by default */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style the green light */
+.GreenLightRedLight .box.green {
+  background-color: #00ff00; /* Green when active */
+}
+
+/* Style the game info */
+.GreenLightRedLight p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Style the start button */
+.GreenLightRedLight button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.GreenLightRedLight button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* App.css */
+
+/* Style the main application container */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Add more styles as needed for your specific design */
